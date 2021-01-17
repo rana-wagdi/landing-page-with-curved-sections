@@ -131,6 +131,9 @@ header{
      #home p{
         width: 100%;
      }
+     .btn-start{
+         width: 15rem;
+     }
  }
  @media (max-width:346px){
     .btn{
