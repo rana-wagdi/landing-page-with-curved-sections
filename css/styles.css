@@ -21,7 +21,7 @@ header{
     margin: auto;
     width: 50%;
 }
-.btn {
+.btn-try {
     background: #FFFFFF;
     background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
     background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
@@ -101,6 +101,26 @@ header{
     height: auto;
     margin: 2rem auto;
     width: 100%;
+}
+
+
+#communities .content img{
+    margin-right: 13rem;
+}
+#communities .content h2{
+    font-size: 6rem;
+}
+#communities .content p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #999999;
+
+}
+
+
+.content div{
+    margin-bottom: 7rem;
 }
  @media (max-width:716px){
      header{
