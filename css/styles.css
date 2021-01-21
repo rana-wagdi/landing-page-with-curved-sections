@@ -48,7 +48,7 @@ header{
 
  }
  
- .btn:hover {
+ .btn-try:hover {
     border: solid #FFFFFF 1px;
     background: #FFFFFF;
     background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
@@ -122,6 +122,27 @@ header{
 .content div{
     margin-bottom: 7rem;
 }
+
+
+#together{
+    background-color: #e4f5f0;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+#together img{
+    margin: 4rem 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+#together .grow {
+    margin: 10rem 3rem;
+    text-align: left;
+}
+#together .grow h2{
+    font-weight: bold;
+}
  @media (max-width:716px){
      header{
          margin: 2.5rem auto;
@@ -129,7 +150,7 @@ header{
      .logo-img{
         margin: 0 1rem;
      }
-     .btn{
+     .btn-try{
         padding: 10px 2rem;
      }
      #home p{
@@ -144,7 +165,7 @@ header{
         width: 50%;
         margin: 0 .5rem;
      }
-     .btn{
+     .btn-try{
         padding: .5rem 2rem;
         margin: 0 .2rem;
      }
@@ -156,7 +177,7 @@ header{
      }
  }
  @media (max-width:346px){
-    .btn{
+    .btn-try{
         display: none;
      }
      #home p{
