@@ -128,20 +128,22 @@ header{
     height: auto;
     text-align: center;
     overflow: hidden;
+    
 }
 #together img{
-    margin: 0 auto;
+    
     width: 40%;
     height: auto;
-    text-align: left;
     float: right;
+    margin: auto 3rem 0 0;
 }
  .grow {
-    position: relative;
-    padding-top: 6rem;
+
     margin: 0 1rem;
     text-align: left;
+    padding: 7% 0 0 7%;
     width: 45%;
+    
 }
 #together .grow h2{
     margin: 1rem 0;
@@ -204,7 +206,7 @@ header{
         margin: .5rem .5rem;
     }
     .logo-img{
-        width: 40%;
+        width: 50%;
         margin: 0 .1rem;
      }
      .btn-try{
@@ -218,7 +220,7 @@ header{
          width: 15rem;
      }
  }
- @media (max-width:346px){
+ @media (max-width:279px){
     .btn-try{
         display: none;
      }
