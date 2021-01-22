@@ -124,6 +124,7 @@ header{
 
 #together{
     background-color: #e4f5f0;
+    width: 100%;
     height: auto;
     text-align: center;
     overflow: hidden;
@@ -138,15 +139,20 @@ header{
 }
  .grow {
 
-    margin: 0 1rem;
+    margin: auto 1rem;
     text-align: left;
     padding: 7% 4% 0 4%;
     width: 45%;
+    height: auto;
     
 }
 #together .grow h2{
     margin: 1rem 0;
     font-weight: bold;
+}
+.content{
+    margin-bottom: 1rem;
+}
 }
 /*#together{
     background-color: #e4f5f0;
