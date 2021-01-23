@@ -126,25 +126,28 @@ header{
     background-color: #e4f5f0;
     width: 100%;
     height: auto;
-    text-align: center;
+    
     overflow: hidden;
     
 }
 #together img{
     
-    width: 40%;
+    width: 80%;
     height: auto;
     float: right;
     margin: auto 3rem 0 0;
 }
  .grow {
-
-    margin: auto 1rem;
-    text-align: left;
-    padding: 7% 4% 0 4%;
-    width: 45%;
-    height: auto;
+    padding: 6% 1%;
+ 
     
+}
+.grow-box{
+    margin:0 6rem ;
+}
+.grow-box p{
+    padding: auto 3rem;
+    width: 80%;
 }
 #together .grow h2{
     margin: 1rem 0;
@@ -153,7 +156,7 @@ header{
 .content{
     margin-bottom: 1rem;
 }
-}
+
 /*#together{
     background-color: #e4f5f0;
     height: auto;
@@ -193,16 +196,23 @@ header{
         width: 80%;
      }
      #together img{
-        margin: 0rem auto 4rem auto;
+        margin: 0rem auto 5rem auto;
         width: 90%;
         height: auto;
-        text-align: left;
+    }
+    .grow{
+        padding: 2% 1%;
         
     }
-   #together  .grow {
-       
-        margin:  0rem auto;
+   #together .grow h2 {
         text-align: center;
+        
+    }
+    .grow-box{
+        text-align: center;
+    }
+    .grow-box p{
+        margin: auto;
         width: 80%;
     }
  }
@@ -224,6 +234,23 @@ header{
      .btn-start{
          width: 15rem;
      }
+     .grow{
+       text-align: center;
+       
+    }
+    #together .grow h2 {
+        
+        text-align: center;
+        
+    }
+    .grow-box{
+        width: 100%;
+        margin: auto;
+      
+    }
+     .grow-box p{
+        width: auto;
+    }
  }
  @media (max-width:279px){
     .btn-try{
@@ -232,4 +259,12 @@ header{
      #home p{
         width: 100%;
      }
+     .grow{
+        padding: 2% 3%;
+        
+    }
+     .grow-box p{
+        margin: auto;
+        width: 100%;
+    }
  }
