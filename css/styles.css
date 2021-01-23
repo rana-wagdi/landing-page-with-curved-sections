@@ -234,7 +234,7 @@ header{
     }
     .conversation-box{
         text-align: center;
-        margin: 4rem 2rem;
+        margin: 4rem 1rem;
     }
  }
  @media (max-width:458px){
