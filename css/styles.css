@@ -147,7 +147,7 @@ header{
 }
 .grow-box p{
     padding: auto 3rem;
-    width: 80%;
+    width: 90%;
 }
 #together .grow h2{
     margin: 1rem 0;
@@ -213,7 +213,7 @@ header{
     }
     .grow-box p{
         margin: auto;
-        width: 80%;
+        width: 100%;
     }
  }
  @media (max-width:458px){
@@ -249,7 +249,7 @@ header{
       
     }
      .grow-box p{
-        width: auto;
+        
     }
  }
  @media (max-width:279px){
