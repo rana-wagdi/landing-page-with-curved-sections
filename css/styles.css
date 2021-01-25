@@ -126,7 +126,6 @@ header{
     background-color: #e4f5f0;
     width: 100%;
     height: auto;
-    
     overflow: hidden;
     
 }
@@ -239,7 +238,7 @@ header{
  }
  @media (max-width:458px){
     header{
-        margin: .5rem .5rem;
+        margin: 1rem 1rem;
     }
     .logo-img{
         width: 50%;
