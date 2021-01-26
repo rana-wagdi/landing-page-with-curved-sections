@@ -1,105 +1,78 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 1%;
     padding: 0;
     text-align: center !important;
 }
 
+/* Section */
+#conversation ,footer, #together{
+    text-align: left;
+}
+
+#home p, #together img{
+    margin: auto;
+}
+
+#home .img-mockups, #together, #together img{
+    height: auto;
+}
+
+
+/* header */
 header{
-    margin: 3rem;
+    margin: 2%;
+    padding: 1.5%;
 }
 #home {
     margin: 6rem auto;
     width: 80%;
-    line-height: 2rem;
 }
 .logo-img{
     float: left;
 }
 #home h1{
-    margin: 2rem auto;
     font-size: 2rem;
     font-weight:800;
+    margin: 1.5rem auto;
 }
 #home p{
+    line-height: 2rem;
     font-size: 1.1rem;
-    margin: auto;
     width: 50%;
 }
+/* Bottons */
+
 .btn-try {
     background: #FFFFFF;
-    background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
     border: solid #FF52BF 1px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 20px;
-    -webkit-box-shadow: 0 1px 10px 0 #cfcfcf15;
-    -moz-box-shadow: 0 1px 10px 0 #cfcfcf15;
-    box-shadow: 0 1px 10px 0 #cfcfcf15;
     color: #FF52BF;
     float: right;
-    font-family: Arial;
     font-size: 16px;
+    font-weight: 500;
     margin: 0 1.5rem;
     padding: .5rem 2.5rem;
-    text-shadow: 0 0 0 #000000;
-    text-decoration: none;
-    cursor: pointer;
-
-
  }
- 
- .btn-try:hover {
-    border: solid #FFFFFF 1px;
-    background: #FFFFFF;
-    border-radius: 20px;
-    text-decoration: none;
- }
+
  .btn-start {
     background: #FF52BF;
-    background-image: -webkit-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -moz-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -ms-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -o-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -webkit-gradient(to bottom, #FF52BF, #FF52BF);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 3rem;
     border: #FF52BF;
     color: #FFFFFF;
-    font-family: Arial;
     font-size: 20px;
+    font-weight: 500;
     margin: 2rem auto;
     padding: 16px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
     width: 20rem;
  }
- 
- .btn-start:hover {
-    border: solid #FF52BF 1px;
-    background: #FF52BF;
-    background-image: -webkit-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -moz-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -ms-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -o-linear-gradient(top, #FF52BF, #FF52BF);
-    background-image: -webkit-gradient(to bottom, #FF52BF, #FF52BF);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
- }
-.img-mockups{
-    height: auto;
+
+#home .img-mockups{
     margin: 2rem auto;
     width: 100%;
 }
 
+/* communities  */
 
 #communities .content img{
     margin-right: 13rem;
@@ -108,38 +81,29 @@ header{
     font-size: 6rem;
 }
 #communities .content p{
-    margin-top: 1rem;
+    color: #999999;
     font-size: 1.1rem;
     font-weight: 500;
-    color: #999999;
-
+    margin-top: 1rem;
 }
 
 
 
+/* Together */
 
 #together{
-    text-align: left;
     background-color: #e4f5f0;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    
 }
 #together img{
-    
     width: 80%;
-    height: auto;
     float: right;
-    margin: auto;
 }
  .grow {
     padding: 6% 1%;
- 
-    
 }
 .grow-box{
     margin:0 6rem ;
+
 }
 .grow-box p{
     padding: auto 3rem;
@@ -157,55 +121,56 @@ header{
 /* conversation start */
 
 #conversation{
-    text-align: left;
     padding: 3% 0;
 }
 #conversation img{
     width: 100%;
 }
 .conversation-box{
-    margin: 20% 0 0 12%; 
+    margin: 20% 0 0 12%;
 }
 .conversation-box h2{
     font-weight: bold;
     margin-bottom: 1rem;
-}   
+}
 
 /* footer */
 footer{
-    text-align: left;
-    padding: 5%;
     background-color: #003438;
     color: #FFFFFF;
+    padding: 5%;
 }
 #footer-box h4{
     margin:1rem auto ;
 }
+
 #footer-box p{
-    width:50%;
     font-size: .8rem;
     font-weight: 100;
+    width:50%;
 }
+
 #footer-box input{
-    width:35%;
-    height: 2rem;
     border-radius: .5rem #000;
-    margin-right: 2rem;
+    height: 2rem;
     margin-bottom: 1rem;
+    margin-right: 2rem;
+    width:35%;
 }
 #footer-box button{
     background-color: #FF52BF;
-    color: #FFFFFF;
-    padding:.4rem 1.3rem ;
-    font-size: 1rem;
-    font-weight: 500;
     border-radius: .3rem;
     border-color: #FF52BF;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
     margin-bottom: 4rem;
+    padding:.4rem 1.3rem ;
 }
+
 .img-footer{
-    width: 40%;
     margin-bottom: 1rem;
+    width: 40%;
 }
 .phone{
     transform: rotate(-40deg)
@@ -232,26 +197,25 @@ footer{
         padding: 10px 1rem;
      }
      #together img{
+         height: auto;
         margin: 0rem auto 5rem auto;
         width: 90%;
-        height: auto;
     }
     .grow{
         padding: 2% 1%;
-        
-    }
-   .conversation-box,   .grow-box{
-        text-align: center;
     }
     .grow-box p{
         margin: auto;
         width: 100%;
     }
+     .conversation-box,   .grow-box{
+        text-align: center;
+    }
     .conversation-box{
         margin: 4rem 1rem;
     }
-        #footer-box input{
-    width:65%;
+    #footer-box input{
+        width:65%;
 
 }
 
@@ -261,24 +225,22 @@ footer{
         margin: 1rem;
     }
     .logo-img{
-        width: 55%;
         margin: 0 .1rem;
+        width: 55%;
      }
      .btn-try{
+         margin: 0 .1rem;
         padding: .4rem .3rem;
-        margin: 0 .1rem;
      }
      .btn-start{
          width: 15rem;
      }
     .grow-box{
-        width: 100%;
         margin: auto;
-      
+        width: 100%;
     }
     #footer-box input{
     width:70%;
-
 }
  }
  @media (max-width:279px){
@@ -290,7 +252,7 @@ footer{
      }
      .grow{
         padding: 2% 3%;
-        
+
     }
      .grow-box p{
         margin: auto;
