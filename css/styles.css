@@ -198,6 +198,39 @@ header{
     margin-bottom: 1rem;
 }   
 
+/* footer */
+footer{
+    padding: 5%;
+    background-color: #003438;
+    color: #FFFFFF;
+}
+#footer-box h4{
+    margin:1rem auto ;
+}
+#footer-box p{
+    width:50%;
+    font-size: .8rem;
+    font-weight: 100;
+}
+#footer-box input{
+    width:35%;
+    height: 2rem;
+    border-radius: .5rem #000;
+    margin-right: 2rem;
+}
+#footer-box button{
+    background-color: #FF52BF;
+    color: #FFFFFF;
+    padding:.4rem 1.3rem ;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: .3rem;
+    border-color: #FF52BF;
+    margin-bottom: 4rem;
+}
+.img-footer{
+    margin-bottom: 1rem;
+}
  @media (max-width:716px){
      header{
          margin: 2.5rem auto;
