@@ -21,14 +21,14 @@ body{
 
 /* header */
 header{
-    margin: 2% 0;
+    margin: 1% 0;
 
 }
 .logo-img{
     float: left;
 }
 #home {
-    margin: 6rem auto;
+    margin: 3.5rem auto;
     width: 80%;
 }
 #home h1{
