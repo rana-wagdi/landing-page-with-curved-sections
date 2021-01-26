@@ -217,6 +217,7 @@ footer{
     height: 2rem;
     border-radius: .5rem #000;
     margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 #footer-box button{
     background-color: #FF52BF;
@@ -229,7 +230,15 @@ footer{
     margin-bottom: 4rem;
 }
 .img-footer{
+    width: 40%;
     margin-bottom: 1rem;
+}
+.phone{
+    transform: rotate(-40deg)
+}
+.social-icon{
+    font-size: 1.5rem;
+    margin:1rem .3rem;
 }
  @media (max-width:716px){
      header{
@@ -268,6 +277,11 @@ footer{
         text-align: center;
         margin: 4rem 1rem;
     }
+        #footer-box input{
+    width:65%;
+
+}
+
  }
  @media (max-width:458px){
     header{
@@ -304,6 +318,10 @@ footer{
      .grow-box p{
         
     }
+    #footer-box input{
+    width:70%;
+
+}
  }
  @media (max-width:279px){
     .btn-try{
