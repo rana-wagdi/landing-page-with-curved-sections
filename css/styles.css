@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 1%;
+    margin: 0;
     padding: 0;
     text-align: center !important;
 }
@@ -21,7 +21,7 @@ body{
 
 /* header */
 header{
-    margin: 2%;
+    margin: 2% 0;
     padding: 1.5%;
 }
 #home {
