@@ -2,25 +2,29 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center !important;
 }
 
 header{
     margin: 3rem;
 }
 #home {
-    text-align: center;
     margin: 6rem auto;
     width: 80%;
     line-height: 2rem;
 }
+.logo-img{
+    float: left;
+}
 #home h1{
+    margin: 1rem;
     font-size: 2rem;
     font-weight:800;
 }
 #home p{
     font-size: 1.1rem;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 .btn-try {
     background: #FFFFFF;
@@ -45,20 +49,13 @@ header{
     text-shadow: 0 0 0 #000000;
     text-decoration: none;
     cursor: pointer;
-    text-align: center;
+
 
  }
  
  .btn-try:hover {
     border: solid #FFFFFF 1px;
     background: #FFFFFF;
-    background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
-    background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
  }
@@ -81,7 +78,6 @@ header{
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    text-align: center;
     width: 20rem;
  }
  
@@ -123,6 +119,7 @@ header{
 
 
 #together{
+    text-align: left;
     background-color: #e4f5f0;
     width: 100%;
     height: auto;
@@ -156,35 +153,11 @@ header{
     margin-bottom: 1rem;
 }
 
-/*#together{
-    background-color: #e4f5f0;
-    height: auto;
-    text-align: center;
-    overflow: hidden;
-}
-#together img{
-    margin-left: auto;
-    margin-top: 3rem;
-    width: 100%;
-    height: auto;
-    text-align: left;
-}
-
-#together .grow {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 7rem;
-    text-align: left;
-    width: 50%;
-}
-#together .grow h2{
-    margin: 1rem 0;
-    font-weight: bold;
-}*/
 
 /* conversation start */
 
 #conversation{
+    text-align: left;
     padding: 3% 0;
 }
 #conversation img{
@@ -200,6 +173,7 @@ header{
 
 /* footer */
 footer{
+    text-align: left;
     padding: 5%;
     background-color: #003438;
     color: #FFFFFF;
@@ -240,6 +214,13 @@ footer{
     font-size: 1.5rem;
     margin:1rem .3rem;
 }
+
+
+ @media (max-width:904px){
+     #home p{
+        width: 100%;
+     }
+ }
  @media (max-width:716px){
      header{
          margin: 2.5rem auto;
@@ -250,9 +231,6 @@ footer{
      .btn-try{
         padding: 10px 1rem;
      }
-     #home p{
-        width: 80%;
-     }
      #together img{
         margin: 0rem auto 5rem auto;
         width: 90%;
@@ -262,11 +240,7 @@ footer{
         padding: 2% 1%;
         
     }
-   #together .grow h2 {
-        text-align: center;
-        
-    }
-    .grow-box{
+   .conversation-box,   .grow-box{
         text-align: center;
     }
     .grow-box p{
@@ -274,7 +248,6 @@ footer{
         width: 100%;
     }
     .conversation-box{
-        text-align: center;
         margin: 4rem 1rem;
     }
         #footer-box input{
@@ -285,38 +258,23 @@ footer{
  }
  @media (max-width:458px){
     header{
-        margin: 1rem 1rem;
+        margin: 1rem;
     }
     .logo-img{
-        width: 50%;
+        width: 55%;
         margin: 0 .1rem;
      }
      .btn-try{
-        padding: .5rem 1rem;
+        padding: .4rem .3rem;
         margin: 0 .1rem;
-     }
-     #home p{
-        width: 100%;
      }
      .btn-start{
          width: 15rem;
      }
-     .grow{
-       text-align: center;
-       
-    }
-    #together .grow h2 {
-        
-        text-align: center;
-        
-    }
     .grow-box{
         width: 100%;
         margin: auto;
       
-    }
-     .grow-box p{
-        
     }
     #footer-box input{
     width:70%;
