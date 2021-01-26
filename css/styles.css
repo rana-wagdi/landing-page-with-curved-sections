@@ -24,12 +24,12 @@ header{
     margin: 2% 0;
     padding: 1.5%;
 }
+.logo-img{
+    float: left;
+}
 #home {
     margin: 6rem auto;
     width: 80%;
-}
-.logo-img{
-    float: left;
 }
 #home h1{
     font-size: 2rem;
